@@ -6,6 +6,6 @@ Project showcasing using grpc instead of the usual suspect which is http request
 ### Generate proto files
 To generate golang proto files run this command:
 ```
-protoc -I proto proto/contracts/*.proto --go_out=./proto/gen/go/ --go_opt=paths=source_relative --go-grpc_out=./proto/gen/go/ --go-grpc_opt=paths=source_relative
+protoc -I proto proto/contracts/*.proto --go_out=./proto/gen/go/ --go-grpc_out=./proto/gen/go/
 
 ```
